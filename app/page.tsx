@@ -65,7 +65,9 @@ export default function Home() {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="#" // Replace with actual download link later
+              href="https://www.mediafire.com/file/r4nn1rhuiakd86v/GGMULIVE.apk/file"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group relative flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-red-600 to-red-800 rounded-2xl font-bold text-lg shadow-lg shadow-red-900/30 hover:shadow-red-900/50 transition-all"
             >
               <Download className="w-6 h-6" />
@@ -213,7 +215,7 @@ export default function Home() {
             © {new Date().getFullYear()} GGMULIVE. Made for fans by fans.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Telegram Channel</a>
+            <a href="https://t.me/ggmulive" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Telegram Channel</a>
             <a href="#" className="text-gray-400 hover:text-white transition-colors">Support</a>
           </div>
         </div>
